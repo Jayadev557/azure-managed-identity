@@ -16,7 +16,8 @@ Created an Azure Storage Account to store the test blob that will be accessed by
 **Storage Account:** `<YOUR_STORAGE_ACCOUNT_NAME>`
 
 **Purpose:** Acts as the target Azure resource for the Managed Identity lab.
-![Storage Account](screenshots/01-storage-account.png)
+
+![Storage Account](screenshot/01-storage-account.png)
 
 
 ## 6. Authentication vs Authorization
