@@ -76,7 +76,7 @@ Requested an access token from the Azure Instance Metadata Service (IMDS) using 
 curl -s -H "Metadata: true" \
   "http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://storage.azure.com/"
 
-![Managed Identity Token](screenshot/07-token-response-redacted.png)
+![Managed Identity Token](screenshots/07-token.png)
 
 ## 6. Authentication vs Authorization
 
