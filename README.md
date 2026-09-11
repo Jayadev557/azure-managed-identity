@@ -61,6 +61,13 @@ Uploaded a test file to the private Blob container.
 **Purpose:** This blob will be accessed from the VM using its Managed Identity.
 ![Blob Uploaded](screenshot/05-blob-uploaded.png)
 
+### Step 6 — Connect to the VM
+
+Connected to the Azure VM using SSH.
+
+This provides access to the VM terminal where the Managed Identity will be used to authenticate to Azure services.
+![VM Terminal](screenshots/06-vm-terminal.png)
+
 ## 6. Authentication vs Authorization
 
 ## 7. Testing and Validation
