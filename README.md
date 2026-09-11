@@ -76,7 +76,7 @@ Resource: https://storage.azure.com/
 The returned access token was not stored or published.
 Purpose: Proves that the VM can obtain an Azure Storage access token using its Managed Identity without storing credentials.
 
-![Managed Identity Token](screenshots/07-token.png)
+![Managed Identity Token](screenshot/07-token.png)
 
 ## 6. Authentication vs Authorization
 
