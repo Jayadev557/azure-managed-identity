@@ -31,6 +31,16 @@ Created an Ubuntu Azure Virtual Machine that represents the workload which will 
 
 ![Azure VM](screenshot/02-vm-created.png)
 
+### Step 3 — Enable System-Assigned Managed Identity
+
+Enabled a System-Assigned Managed Identity on the Azure VM.
+
+**Identity Type:** System-assigned
+
+**Purpose:** Allows the VM to authenticate to Azure services without storing credentials such as passwords, client secrets, or storage keys.
+
+![Managed Identity Enabled](screenshot/03-managed-identity-enabled.png)
+
 
 ## 6. Authentication vs Authorization
 
