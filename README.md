@@ -59,7 +59,7 @@ Uploaded a test file to the private Blob container.
 **Blob:** `README.md`
 
 **Purpose:** This blob will be accessed from the VM using its Managed Identity.
-![Blob Uploaded](screenshot/06-blob-uploaded.png)
+![Blob Uploaded](screenshot/05-blob-uploaded.png)
 
 ## 6. Authentication vs Authorization
 
