@@ -50,6 +50,16 @@ Assigned the `Storage Blob Data Reader` role to the VM's System-Assigned Managed
 **Purpose:** Allows the VM's Managed Identity to read data from Azure Blob Storage.
 ![RBAC Role Assignment](screenshot/04-rbac-role-assigned.png)
 
+### Step 5 — Upload Test Blob
+
+Uploaded a test file to the private Blob container.
+
+**Container:** `test-container`
+
+**Blob:** `README.md`
+
+**Purpose:** This blob will be accessed from the VM using its Managed Identity.
+![Blob Uploaded](screenshot/06-blob-uploaded.png)
 
 ## 6. Authentication vs Authorization
 
