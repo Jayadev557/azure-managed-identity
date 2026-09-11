@@ -68,13 +68,13 @@ Connected to the Azure VM using SSH.
 This provides access to the VM terminal where the Managed Identity will be used to authenticate to Azure services.
 ![VM Terminal](screenshot/06-vm-terminal.png)
 
-### Step 7 — Request Managed Identity Access Token
-
-Requested an access token from the Azure Instance Metadata Service (IMDS) using the VM's Managed Identity.
-
-```bash
-curl -s -H "Metadata: true" \
+url -s -H "Metadata: true" \
   "http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://storage.azure.com/"
+
+The token was requested for Azure Storage.
+Resource: https://storage.azure.com/
+The returned access token was not stored or published.
+Purpose: Proves that the VM can obtain an Azure Storage access token using its Managed Identity without storing credentials.
 
 ![Managed Identity Token](screenshots/07-token.png)
 
