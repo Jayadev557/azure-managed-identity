@@ -26,22 +26,7 @@ Instead of storing a Storage Account key, password, or client secret, the VM use
 The Managed Identity obtains an access token and Azure RBAC determines whether the identity is allowed to access the blob.
 
 ## 4. Architecture
-Azure VM
-   │
-   │ System-Assigned Managed Identity
-   ▼
-Microsoft Entra ID
-   │
-   │ Access Token
-   ▼
-Azure Storage
-   │
-   │ Azure RBAC
-   ▼
-Storage Blob Data Reader
-   │
-   ▼
-Private Blob
+![Architecture](screenshot/Architecture.png)
 
 ## 5. Lab Implementation
    ### Step 1 — Create Storage Account
