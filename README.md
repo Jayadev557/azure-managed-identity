@@ -41,6 +41,15 @@ Enabled a System-Assigned Managed Identity on the Azure VM.
 
 ![Managed Identity Enabled](screenshot/03-managed-identity-enabled.png)
 
+### Step 4 — Assign Azure RBAC Role
+
+Assigned the `Storage Blob Data Reader` role to the VM's System-Assigned Managed Identity at the Storage Account scope.
+
+**Role:** Storage Blob Data Reader
+
+**Purpose:** Allows the VM's Managed Identity to read data from Azure Blob Storage.
+![RBAC Role Assignment](screenshot/04-rbac-role-assigned.png)
+
 
 ## 6. Authentication vs Authorization
 
