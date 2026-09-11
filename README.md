@@ -114,7 +114,7 @@ az storage blob download \
   Verified the downloaded file:
    cat downloaded.txt
    
-![Blob Download Success](screenshots/08-blob-download-success.png)
+![Blob Download Success](screenshot/08-blob-download-success.png)
 
 ## 6. Authentication vs Authorization
 ### Authentication
