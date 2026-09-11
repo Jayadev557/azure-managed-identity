@@ -66,7 +66,7 @@ Uploaded a test file to the private Blob container.
 Connected to the Azure VM using SSH.
 
 This provides access to the VM terminal where the Managed Identity will be used to authenticate to Azure services.
-![VM Terminal](screenshots/06-vm-terminal.png)
+![VM Terminal](screenshot/06-vm-terminal.png)
 
 ## 6. Authentication vs Authorization
 
